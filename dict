@@ -1,0 +1,5 @@
+#!/bin/bash
+
+str="'$*'"
+
+exec python ~/your_file_path/cmd_dict.py $str
